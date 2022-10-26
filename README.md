@@ -12,6 +12,22 @@ The service allows you to process numeric data from a uploaded txt file.
 - arithmetic average value
 - the longest sequence of consecutive numbers in ascending or descending order
 
+## Results from Relex TestFile:
+
+maximum number in the file =  49999978
+
+minimum number in the file = -49999996
+
+median = 25216.0
+
+arithmetic average value = 7364.418442641844
+
+the longest sequence of consecutive numbers in ascending order = 
+{-48190694, -47725447, -43038241, -20190291, -17190728, -6172572, 8475960, 25205909, 48332507, 48676185}
+
+the longest sequence of consecutive numbers in descending order =
+{ 47689379, 42381213, 30043880, 12102356, -4774057, -5157723, -11217378, -23005285, -23016933, -39209115, -49148762}
+
 ## Project Features:
 - The results are output in json or xml formats. The format can be changed by adding header "accept:application/xml" or "accept:application/xml"
 - A file can be passed in binary form in a post request
@@ -70,4 +86,3 @@ The service allows you to process numeric data from a uploaded txt file.
 ### Response in descending oreder
 
 ![DescResponsePNG](https://user-images.githubusercontent.com/88117408/198010469-d68623c4-b2f3-456d-8d04-bbfc342454d7.png)
-
